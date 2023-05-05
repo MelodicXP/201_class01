@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Internal Style-->
+  <style>
+   body {
+    margin-left: 15vw;
+    margin-right: 15vw;
+    background-color: #323a45;
+   }
+
+   h1 {
+    background-color: #fdb81e; color: #212121;
+    border: 3px solid white;
+    font-size: 300%;
+    width: 400px;
+    text-align: center;
+    margin: auto; /*centers items */
+   }
+
+   p {
+    width: 400px;
+    border: 3px solid white;
+    text-align: center;
+    font-size: 125%;
+    padding: 5px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   }
+
+   footer {
+    margin: auto;
+    width: 400px;
+    text-align: center;
+   }
+
+  </style>
+  <title>Document</title>
+</head>
+
+<body>
+  <header></header>
+
+  <main>
+    <h1>Class 1 Lab</h1>
+    <p style="background-color: #0071bc; color: #ffffff">What's your name space traveler?</p>
+    <p style="background-color: #cd2026; color: #ffffff">What planet are you from?</p>
+    <p style="background-color: #4aa564; color: #ffffff">How long did it take you to get here?</p>
+    <p style="background-color: #9556d8; color: #ffffff">Do you think there's a faster way to travel through space?</p>
+  </main>
+
+  <footer style="color: #ffffff">Author: Melodic</footer>
+  <script>
+
+    let userInputOne = prompt("What's your name traveler?");
+    alert(userInputOne + " welcome to the far side of the galaxy!");
+    console.log("Asked user to enter name, here is user input: ", userInputOne);
+
+    let userInputTwo = prompt("What planet are you from?");
+    alert(userInputTwo + " sounds like an amazing place " + userInputOne + "!");
+    console.log("Asked what planet user from, here is user input: ", userInputTwo);
+
+    let userInputThree = prompt("How long did it take you to get here?");
+    alert("Wow! " + userInputOne + " You traveled " + userInputThree + " from " + userInputTwo + " just to get here!");
+    console.log("Asked user how long travel was, here is user input: ", userInputThree);
+
+    let userInputFour = prompt("Do you think there's a faster way to travel through space?");
+    alert("'" + userInputFour + "' you say? Well " + userInputOne + ", you are in luck! Using the power of black holes you can travel from " + userInputTwo + " to this location A LOT faster than " + userInputThree + "! Let me show you how!");
+    console.log("asked user if there was a faster way to travel, here is user input: ", userInputFour);
+
+  </script>
+</body>
+</html>
